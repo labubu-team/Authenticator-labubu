@@ -1,0 +1,101 @@
+/* Container */
+.edit-profile-container {
+  width: 332px;
+  height: 555px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.edit-profile-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.edit-profile-logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #007bff;
+}
+
+.edit-profile-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Form */
+.edit-profile-form {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Buttons */
+.edit-profile-buttons {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Update Button */
+.update-button {
+  border: 1px solid #007bff;
+  background-color: transparent;
+  color: #007bff;
+}
+
+.update-button:hover {
+  background-color: #e7f1ff;
+}
+
+/* Delete Button */
+.delete-button {
+  border: none;
+  background-color: #ff5252;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
